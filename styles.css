@@ -49,6 +49,7 @@ a {
 .hero p {
     color: var(--color3);
     font-size: 18px;
+    padding: 16px 0px
 }
 
 .hero button {
@@ -61,4 +62,10 @@ a {
 
 img {
     max-width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--color1);
 }
