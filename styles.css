@@ -11,7 +11,7 @@
 }
 header {
     background-color: var(--color1);
-    padding: 16px;
+    padding: 16px 64px;
 }
 ul .logo {
     color: var(--color2);
@@ -37,7 +37,7 @@ a {
     align-items: center;
     gap: 48px;
     background-color: var(--color1);
-    padding: 16px
+    padding: 64px;
 }
 
 .hero h1 {
