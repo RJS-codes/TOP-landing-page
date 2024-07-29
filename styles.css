@@ -1,12 +1,20 @@
+:root {
+    --color1: #1f2937;
+    --color2: #f9faf8;
+    --color3: #e5e7eb;
+    --color4: #3883f6;
+}
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 header {
-    background-color: #1f2937;
+    background-color: var(--color1);
+    padding: 16px;
 }
 ul .logo {
-    color: #f9faf8;
+    color: var(--color2);
     font-size: 24px;
     margin-right: auto;
 }
@@ -20,5 +28,37 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: var(--color3);
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-color: var(--color1);
+    padding: 16px
+}
+
+.hero h1 {
+    color: var(--color2);
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p {
+    color: var(--color3);
+    font-size: 18px;
+}
+
+.hero button {
+    background-color: var(--color4);
+    color: var(--color3);
+    border-style: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+img {
+    max-width: 100%;
 }
