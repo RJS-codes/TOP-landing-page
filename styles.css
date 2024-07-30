@@ -69,3 +69,18 @@ h2 {
     font-weight: bolder;
     color: var(--color1);
 }
+
+.information {
+    text-align: center;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.box {
+    width: 75px;
+    height: 75px;
+    border: 3px solid  var(--color4);
+    border-radius: 10px;
+}
